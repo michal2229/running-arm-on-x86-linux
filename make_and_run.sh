@@ -6,7 +6,7 @@ set -e # Stop on any error.
 # sudo apt install gcc-arm-linux-gnueabihf g++-arm-linux-gnueabihf
 
 ## This is needed to run statically compiled ARM binaries on linux.
-# sudo apt install qemu-user-static # or qemu-user-static
+# sudo apt install qemu-user # or qemu-user-static
 
 printf "\n >>> building binary...\n\n"
 
